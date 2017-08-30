@@ -1,10 +1,95 @@
+
+
 #calculator {
-    width: 500px;
-    height: 500px;
-    border: 5px solid #444444;
+    width: 400px;
+    height: 525px;
+    border: 25px solid #444444;
+    border-radius: 1%;
+    align-self: auto;
+    background: #1E1D1D;
+    color: #F5F5F5;
+    display: block;
+    margin: auto;
+    box-shadow: 5px 5px 15px #888888;
 }
 
 #readout {
     height: 50px;
     border: 3px solid #999999;
+    border-radius: 1%;
+    background: #1E1D1D;
+    color: #F5F5F5;
 }
+
+#clears {
+    width: 400px;
+}
+
+button {
+    width: 97px;
+    height: 90px;
+    border-radius: 10%;
+    margin: auto;
+    padding: 5px;
+    font-size: 35px;
+    font-family: 'Aldrich', sans-serif;
+    text-shadow: 1px 1px 5px #888888;
+    background: #1E1D1D;
+    color: #F5F5F5;
+}
+
+button:hover {
+    background-color: rgba(44, 144, 232, 1);
+}
+
+#readout {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 60px;
+    text-align: right;
+    padding: 10px;
+    border-radius: 2%;
+}
+
+h1 {
+    font-family: 'Zilla Slab Highlight', cursive;
+    text-align: center;
+    font-size: 84px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+}
+
+h1:hover {
+    color: rgba(44, 144, 232, 0.62);
+}
+
+h2 {
+    font-family: 'Zilla Slab Highlight', cursive;
+    text-align: center;
+    display: block;
+    width: 450px;
+    background-color: white;
+    color: black;
+    margin: auto;
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+
+h2:hover {
+    color: rgba(44, 144, 232, 1);
+}
+
+#equals {
+        background: white;
+        color: black;
+    }
+
+#equals:hover {
+    background: darkgoldenrod;
+}
+
+/* 
+font-family: 'Orbitron', sans-serif;
+font-family: 'Hammersmith One', sans-serif;
+font-family: 'Audiowide', cursive;
+font-family: 'Aldrich', sans-serif;
+font-family: 'VT323', monospace; */
